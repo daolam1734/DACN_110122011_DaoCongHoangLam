@@ -1,0 +1,124 @@
+.app-layout {
+    min-height: 100vh;
+}
+
+.logo {
+    color: #fff;
+    display: flex;
+    align-items: center;
+    padding: 14px;
+    gap: 8px
+}
+
+.logo-mark {
+    background: rgba(255, 255, 255, 0.04);
+    padding: 6px 8px;
+    border-radius: 4px;
+    font-weight: 600;
+    font-size: 13px
+}
+
+.logo-text {
+    color: #fff;
+    font-size: 13px;
+    letter-spacing: 0.2px
+}
+
+.sidebar-profile {
+    padding: 12px;
+    border-top: 1px solid rgba(255, 255, 255, 0.04);
+    margin-bottom: 8px
+}
+
+.profile-top {
+    display: flex;
+    gap: 10px;
+    align-items: center
+}
+
+.profile-info {
+    color: #fff
+}
+
+.profile-name {
+    font-weight: 600;
+    color: #fff;
+    font-size: 13px
+}
+
+.profile-email {
+    font-size: 11px;
+    color: rgba(255, 255, 255, 0.85)
+}
+
+.profile-role {
+    font-size: 11px;
+    color: rgba(255, 255, 255, 0.7);
+    margin-top: 4px
+}
+
+.profile-actions {
+    margin-top: 6px
+}
+
+.app-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 16px;
+    background: #fff;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.06)
+}
+
+.app-title {
+    margin: 0;
+    color: rgba(0, 0, 0, 0.85);
+    font-size: 16px
+}
+
+.header-right {
+    display: flex;
+    align-items: center
+}
+
+.app-content {
+    margin: 18px;
+    background: #fbfcfd;
+    padding: 18px;
+    border-radius: 6px;
+    min-height: 60vh
+}
+
+.app-footer {
+    text-align: center;
+    color: rgba(0, 0, 0, 0.45);
+    font-size: 12px
+}
+
+/* Dashboard specific tweaks to integrate with existing Dashboard.css */
+.dashboard-root {
+    background: transparent;
+    padding: 12px
+}
+
+.dash-header {
+    padding: 8px 0;
+}
+
+.dash-title {
+    margin: 0;
+    color: #0f3c7a
+}
+
+.dash-sub {
+    margin: 0;
+    color: rgba(0, 0, 0, 0.45)
+}
+
+/* Responsive minor tweaks */
+@media (max-width: 768px) {
+    .app-content {
+        margin: 12px;
+        padding: 12px
+    }
+}
